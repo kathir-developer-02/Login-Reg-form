@@ -1,0 +1,64 @@
+body{
+  background-image: url("img/painting-mountain.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.register{
+  width: 450px;
+  margin-top: 110px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  color: rgb(0, 255, 85);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(108, 108, 108);
+  box-shadow: 0px 0px 10px rgb(17, 17, 17);
+}
+
+.register a{
+  color: rgb(255, 149, 0);
+}
+
+.input input{
+  border: none;
+  border-bottom: 2px solid rgb(85, 255, 164);
+  background: transparent;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.input input::placeholder{
+ color: black;
+}
+
+.close{
+  top: 15px;
+  right: 16px;
+  background-color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .register{
+    margin-top: 250px;
+  }
+  .input input::placeholder{
+    color: white;
+   }
+}
+
+@media screen and (max-width: 500px) {
+  .register{
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .input input::placeholder{
+    color: white;
+   }
+
+  .register a{
+    color: rgb(0, 34, 255);
+  }
+
+}

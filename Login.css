@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("img/Soothing-nature-backgrounds-2.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container1{
+  width: 450px;
+  margin-top: 150px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  color: rgb(255, 255, 0);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(108, 108, 108);
+  box-shadow: 0px 0px 10px rgb(17, 17, 17);
+}
+
+.container1 a{
+  color: rgb(255, 200, 0);
+}
+
+.input-box input{
+  border: none;
+  border-bottom: 2px solid rgb(255, 249, 85);
+  background: transparent;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.input-box input::placeholder{
+ color: white;
+}
+.submit1{
+  width: 120px;
+}
+.register-link{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container1{
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .container1{
+    width: 340px;
+    margin-top: 100px;
+  }
+}
+
